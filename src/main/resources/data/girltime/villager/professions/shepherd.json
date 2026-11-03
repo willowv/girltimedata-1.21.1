@@ -75,10 +75,32 @@
             "trades":[
                 {
                     "sells": {"item": "naturescompass:naturescompass", "count":1, "functions":[
-                            {"function":"minecraft:set_name", "name": "Moth Compass"},
-                            {"function":"minecraft:set_lore",
-                                "lore":["Enchanted by the Shepherds, this compass can lead you to where rosy maple moths appear at night.",
-                                        "Right-click while holding it to choose a destination."]}]},
+                        {
+                            "function": "minecraft:set_name",
+                            "mode": "replace_all",
+                            "name": {
+                                "text": "Moth Compass",
+                                "target": "item_name"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "text": "Enchanted by the Shepherds, this compass can lead you to where rosy maple moths appear at night.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Right-click while holding it to choose a destination.",
+                                    "color": "yellow",
+                                    "italic": true
+                                }
+                            ]
+                        }
+                    ]},
                     "wants": [{"item": "minecraft:emerald", "count":23}],
                     "maxUses": 1,
                     "xp": 0,

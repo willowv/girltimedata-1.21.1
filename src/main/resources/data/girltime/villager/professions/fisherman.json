@@ -42,14 +42,14 @@
             "trades":[
                 {
                     "sells": {"item": "minecraft:emerald", "count":5},
-                    "wants": [{"tag": "girl_time:rare_fish_A", "count":1}],
+                    "wants": [{"tag": "c:foods/raw_fishes", "count":1}],
                     "xp": 20,
                     "maxUses":1,
                     "priceMultiplier": 0
                 },
                 {
                     "sells": {"item": "minecraft:emerald", "count":5},
-                    "wants": [{"tag": "girl_time:rare_fish_B", "count":1}],
+                    "wants": [{"tag": "c:foods/raw_fishes", "count":1}],
                     "xp": 20,
                     "maxUses":1,
                     "priceMultiplier": 0
@@ -61,14 +61,14 @@
             "trades":[
                 {
                     "sells": {"item": "minecraft:emerald", "count":10},
-                    "wants": [{"tag": "girl_time:rare_fish_bucket_A", "count":1}],
+                    "wants": [{"tag": "c:entity_water_buckets", "count":1}],
                     "xp": 30,
                     "maxUses":1,
                     "priceMultiplier": 0
                 },
                 {
                     "sells": {"item": "minecraft:emerald", "count":10},
-                    "wants": [{"tag": "girl_time:rare_fish_bucket_B", "count":1}],
+                    "wants": [{"tag": "c:entity_water_buckets", "count":1}],
                     "xp": 30,
                     "maxUses":1,
                     "priceMultiplier": 0

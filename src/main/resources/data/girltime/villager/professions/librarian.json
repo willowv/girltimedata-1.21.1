@@ -30,7 +30,17 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:armor_trades",
+                        "options": [
+                            "minecraft:blast_protection",
+                            "minecraft:feather_falling",
+                            "minecraft:fire_protection",
+                            "minecraft:projectile_protection",
+                            "minecraft:protection",
+                            "minecraft:respiration",
+                            "minecraft:depth_strider",
+                            "minecraft:aqua_affinity",
+                            "minecraft:thorns"
+                        ],
                         "levels": 6
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":6}],
@@ -40,7 +50,14 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:melee_trades",
+                        "options": [
+                            "minecraft:fire_aspect",
+                            "minecraft:looting",
+                            "minecraft:bane_of_arthropods",
+                            "minecraft:sharpness",
+                            "minecraft:smite",
+                            "minecraft:sweeping_edge"
+                        ],
                         "levels": 6
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":6}],
@@ -50,7 +67,11 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:tool_trades",
+                        "options": [
+                            "minecraft:efficiency",
+                            "minecraft:fortune",
+                            "minecraft:silk_touch"
+                          ],
                         "levels": 6
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":6}],
@@ -60,7 +81,15 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:ranged_trades",
+                        "options": [
+                            "minecraft:power",
+                            "minecraft:flame",
+                            "minecraft:infinity",
+                            "minecraft:multishot",
+                            "minecraft:piercing",
+                            "minecraft:punch",
+                            "minecraft:quick_charge"
+                          ],
                         "levels": 6
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":6}],
@@ -85,7 +114,17 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:armor_trades",
+                        "options": [
+                            "minecraft:blast_protection",
+                            "minecraft:feather_falling",
+                            "minecraft:fire_protection",
+                            "minecraft:projectile_protection",
+                            "minecraft:protection",
+                            "minecraft:respiration",
+                            "minecraft:depth_strider",
+                            "minecraft:aqua_affinity",
+                            "minecraft:thorns"
+                        ],
                         "levels": 14
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":14}],
@@ -95,7 +134,14 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:melee_trades",
+                        "options": [
+                            "minecraft:fire_aspect",
+                            "minecraft:looting",
+                            "minecraft:bane_of_arthropods",
+                            "minecraft:sharpness",
+                            "minecraft:smite",
+                            "minecraft:sweeping_edge"
+                        ],
                         "levels": 14
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":14}],
@@ -105,7 +151,11 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:tool_trades",
+                        "options": [
+                            "minecraft:efficiency",
+                            "minecraft:fortune",
+                            "minecraft:silk_touch"
+                          ],
                         "levels": 14
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":14}],
@@ -115,7 +165,15 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:ranged_trades",
+                        "options": [
+                            "minecraft:power",
+                            "minecraft:flame",
+                            "minecraft:infinity",
+                            "minecraft:multishot",
+                            "minecraft:piercing",
+                            "minecraft:punch",
+                            "minecraft:quick_charge"
+                          ],
                         "levels": 14
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":14}],
@@ -140,7 +198,13 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:armor_trades",
+                        "options": [
+                            "minecraft:feather_falling",
+                            "minecraft:protection",
+                            "minecraft:respiration",
+                            "minecraft:depth_strider",
+                            "minecraft:thorns"
+                        ],
                         "levels": 22
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":22}],
@@ -150,7 +214,12 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:melee_trades",
+                        "options": [
+                            "minecraft:fire_aspect",
+                            "minecraft:looting",
+                            "minecraft:sharpness",
+                            "minecraft:sweeping_edge"
+                        ],
                         "levels": 22
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":22}],
@@ -160,7 +229,11 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:tool_trades",
+                        "options": [
+                            "minecraft:efficiency",
+                            "minecraft:fortune",
+                            "minecraft:silk_touch"
+                          ],
                         "levels": 22
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":22}],
@@ -170,7 +243,15 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:ranged_trades",
+                        "options": [
+                            "minecraft:power",
+                            "minecraft:flame",
+                            "minecraft:infinity",
+                            "minecraft:multishot",
+                            "minecraft:piercing",
+                            "minecraft:punch",
+                            "minecraft:quick_charge"
+                          ],
                         "levels": 22
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":22}],
@@ -185,7 +266,13 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:armor_trades",
+                        "options": [
+                            "minecraft:feather_falling",
+                            "minecraft:protection",
+                            "minecraft:respiration",
+                            "minecraft:depth_strider",
+                            "minecraft:thorns"
+                        ],
                         "levels": 30
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":30}],
@@ -195,7 +282,12 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:melee_trades",
+                        "options": [
+                            "minecraft:fire_aspect",
+                            "minecraft:looting",
+                            "minecraft:sharpness",
+                            "minecraft:sweeping_edge"
+                        ],
                         "levels": 30
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":30}],
@@ -205,7 +297,11 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:tool_trades",
+                        "options": [
+                            "minecraft:efficiency",
+                            "minecraft:fortune",
+                            "minecraft:silk_touch"
+                          ],
                         "levels": 30
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":30}],
@@ -215,7 +311,15 @@
                 {
                     "sells": {"item": "minecraft:book", "count":1, "functions":[{
                         "function":"minecraft:enchant_with_levels",
-                        "options": "#girl_time:ranged_trades",
+                        "options": [
+                            "minecraft:power",
+                            "minecraft:flame",
+                            "minecraft:infinity",
+                            "minecraft:multishot",
+                            "minecraft:piercing",
+                            "minecraft:punch",
+                            "minecraft:quick_charge"
+                          ],
                         "levels": 30
                         }]},
                     "wants": [{"item": "minecraft:emerald", "count":30}],

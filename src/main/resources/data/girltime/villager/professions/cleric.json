@@ -57,7 +57,7 @@
                     "priceMultiplier": 0.05
                 },
                 {
-                    "sells": {"item": "minecraft:scute", "count":1},
+                    "sells": {"item": "minecraft:turtle_scute", "count":1},
                     "wants": [{"item":"more_nuggets:emerald_nugget", "count":42}],
                     "xp": 20,
                     "priceMultiplier": 0.1
