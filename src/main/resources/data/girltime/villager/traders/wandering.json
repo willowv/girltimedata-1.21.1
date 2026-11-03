@@ -1,0 +1,80 @@
+{
+    "generic": {
+        "take":{"type":"constant", "value": 5},
+        "trades":[
+            {
+                "sells": {"item": "minecraft:jukebox", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":4}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_far", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":2}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_relic", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":3}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_mall", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":2}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_blocks", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":3}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_strad", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":4}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_chirp", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":3}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_13", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":1}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_11", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":1}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_wait", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":3}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_5", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":1}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_otherside", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":3}]
+            }
+        ]
+    },
+    "rare":{
+        "take":{"type":"constant", "value": 2},
+        "trades":[
+            {
+                "sells": {"item": "minecraft:music_disc_cat", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":5}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_mellohi", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":5}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_stal", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":5}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_ward", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":5}]
+            },
+            {
+                "sells": {"item": "minecraft:music_disc_pigstep", "count":1},
+                "wants": [{"item": "minecraft:emerald", "count":5}]
+            }
+        ]
+    }
+}

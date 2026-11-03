@@ -1,0 +1,6 @@
+{
+    "sells": {"item": "minecraft:emerald", "count":1},
+    "wants": [{"item": "minecraft:charcoal", "count":12}],
+    "xp": 5,
+    "priceMultiplier": 0.025
+}

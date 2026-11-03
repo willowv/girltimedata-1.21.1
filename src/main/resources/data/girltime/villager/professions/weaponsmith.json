@@ -1,0 +1,230 @@
+{
+    "levels": {
+        "1": {
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                "minecraft:estrogen",
+                "minecraft:buy_iron",
+                "minecraft:buy_coal"
+            ]
+        },
+        "2":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "basicweapons:iron_dagger", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":9}],
+                    "xp": 10,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_hammer", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":45}],
+                    "xp": 10,
+                    "priceMultiplier": 0.1
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_club", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":18}],
+                    "xp": 10,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_quarterstaff", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":9}],
+                    "xp": 10,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_spear", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":9}],
+                    "xp": 10,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_glaive", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":27}],
+                    "xp": 10,
+                    "priceMultiplier": 0.065
+                }
+            ]
+        },
+        "3":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "basicweapons:iron_dagger", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":7}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_hammer", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":11}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_club", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":8}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_quarterstaff", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":7}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_spear", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":7}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_glaive", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":9}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                }
+            ]
+        },
+        "4":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "basicweapons:iron_dagger", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":12}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_hammer", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":16}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_club", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_quarterstaff", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":12}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_spear", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":12}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_glaive", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "5":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "basicweapons:iron_dagger", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":17}],
+                    "xp": 30,
+                    "priceMultiplier": 0.045
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_hammer", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":21}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_club", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":18}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_quarterstaff", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":17}],
+                    "xp": 30,
+                    "priceMultiplier": 0.045
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_spear", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":17}],
+                    "xp": 30,
+                    "priceMultiplier": 0.045
+                },
+                {
+                    "sells": {"item": "basicweapons:iron_glaive", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":19}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        }
+    }
+}

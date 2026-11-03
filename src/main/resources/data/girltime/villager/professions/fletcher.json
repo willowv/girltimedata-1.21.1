@@ -1,0 +1,120 @@
+{
+    "levels": {
+        "1": {
+            "take":{"type":"constant", "value": 5},
+            "trades":[
+                "minecraft:estrogen",
+                {
+                    "sells": {"item": "more_nuggets:emerald_nugget", "count":4},
+                    "wants": [{"item": "minecraft:stick", "count":16}],
+                    "xp": 1,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:flint", "count":1},
+                    "wants": [{"item": "minecraft:gravel", "count":1}, {"item": "more_nuggets:emerald_nugget", "count":1}],
+                    "xp": 1,
+                    "priceMultiplier": 0
+                },
+                {
+                    "sells": {"item": "minecraft:arrow", "count":16},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":9}],
+                    "xp": 5,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:bow", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":18}],
+                    "xp": 5,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        },
+        "2":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:crossbow", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":27}],
+                    "xp": 10,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "minecraft:spectral_arrow", "count":16},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":14}],
+                    "xp": 10,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "3":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:bow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":8}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:crossbow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":9}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                }
+            ]
+        },
+        "4":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:bow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 30,
+                    "priceMultiplier": 0.03
+                },
+                {
+                    "sells": {"item": "minecraft:crossbow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 11
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "5":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:bow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":18}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:crossbow", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":19}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "levels": {
+        "1": {
+            "take":{"type":"constant", "value": 4},
+            "trades":[
+                "minecraft:estrogen",
+                "minecraft:buy_paper",
+                "minecraft:buy_ink",
+                {
+                    "sells": {"item": "minecraft:emerald", "count":1},
+                    "wants": [{"item": "minecraft:book", "count":4}],
+                    "xp": 5,
+                    "priceMultiplier": 0.015
+                }
+            ]
+        },
+        "2":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "minecraft:unbreaking",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 10,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:armor_trades",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 10,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:melee_trades",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 10,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:tool_trades",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 10,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:ranged_trades",
+                        "levels": 6
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 10,
+                    "priceMultiplier": 0.015
+                }
+            ]
+        },
+        "3":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "minecraft:unbreaking",
+                        "levels": 14
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:armor_trades",
+                        "levels": 14
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:melee_trades",
+                        "levels": 14
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:tool_trades",
+                        "levels": 14
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:ranged_trades",
+                        "levels": 14
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "4":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "minecraft:unbreaking",
+                        "levels": 22
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":22}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:armor_trades",
+                        "levels": 22
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":22}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:melee_trades",
+                        "levels": 22
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":22}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:tool_trades",
+                        "levels": 22
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":22}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:ranged_trades",
+                        "levels": 22
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":22}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        },
+        "5":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:armor_trades",
+                        "levels": 30
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":30}],
+                    "xp": 30,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:melee_trades",
+                        "levels": 30
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":30}],
+                    "xp": 30,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:tool_trades",
+                        "levels": 30
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":30}],
+                    "xp": 30,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "minecraft:book", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "options": "#girl_time:ranged_trades",
+                        "levels": 30
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":30}],
+                    "xp": 30,
+                    "priceMultiplier": 0.075
+                }
+            ]
+        }
+    }
+}

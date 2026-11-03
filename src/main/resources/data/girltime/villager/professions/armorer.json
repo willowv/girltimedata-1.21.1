@@ -1,0 +1,161 @@
+{
+    "levels": {
+        "1": {
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                "minecraft:estrogen",
+                "minecraft:buy_iron",
+                "minecraft:buy_coal"
+            ]
+        },
+        "2":{
+            "take":{"type":"constant", "value": 5},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:leather_helmet", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":30}],
+                    "xp": 10,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "minecraft:leather_chestplate", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":48}],
+                    "xp": 10,
+                    "priceMultiplier": 0.1
+                },
+                {
+                    "sells": {"item": "minecraft:leather_leggings", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":42}],
+                    "xp": 10,
+                    "priceMultiplier": 0.1
+                },
+                {
+                    "sells": {"item": "minecraft:leather_boots", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":24}],
+                    "xp": 10,
+                    "priceMultiplier": 0.075
+                },
+                {
+                    "sells": {"item": "shieldexp:wooden_shield", "count":1},
+                    "wants": [{"item": "more_nuggets:emerald_nugget", "count":42}],
+                    "xp": 10,
+                    "priceMultiplier": 0.1
+                }
+            ]
+        },
+        "3":{
+            "take":{"type":"constant", "value": 4},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:chainmail_helmet", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":8}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:chainmail_chestplate", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:chainmail_leggings", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":11}],
+                    "xp": 20,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:chainmail_boots", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":6}],
+                    "xp": 20,
+                    "priceMultiplier": 0.015
+                }
+            ]
+        },
+        "4":{
+            "take":{"type":"constant", "value": 5},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:iron_helmet", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":5}],
+                    "xp": 30,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "minecraft:iron_chestplate", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":8}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                },
+                {
+                    "sells": {"item": "minecraft:iron_leggings", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":7}],
+                    "xp": 30,
+                    "priceMultiplier": 0.02
+                },
+                {
+                    "sells": {"item": "minecraft:iron_boots", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":4}],
+                    "xp": 30,
+                    "priceMultiplier": 0.015
+                },
+                {
+                    "sells": {"item": "shieldexp:iron_shield", "count":1},
+                    "wants": [{"item": "minecraft:emerald", "count":8}],
+                    "xp": 30,
+                    "priceMultiplier": 0.025
+                }
+            ]
+        },
+        "5":{
+            "take":{"type":"constant", "value": 5},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:iron_helmet", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":21}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:iron_chestplate", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":24}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:iron_leggings", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":23}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "minecraft:iron_boots", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":20}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                },
+                {
+                    "sells": {"item": "shieldexp:iron_shield", "count":1, "functions":[{
+                        "function":"minecraft:enchant_with_levels",
+                        "levels": 16
+                        }]},
+                    "wants": [{"item": "minecraft:emerald", "count":24}],
+                    "xp": 30,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        }
+    }
+}

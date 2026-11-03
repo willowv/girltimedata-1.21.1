@@ -1,0 +1,169 @@
+{
+    "levels": {
+        "1": {
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                "minecraft:estrogen",
+                "minecraft:buy_paper",
+                "minecraft:buy_ink"
+            ]
+        },
+        "2":{
+            "take":{"type":"constant", "value": 4},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[
+                        {"function":"minecraft:exploration_map",
+                            "destination":"bettermineshafts:better_mineshafts",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Mineshaft Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 10,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"betterdungeons:better_dungeons",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Dungeon Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 10,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:undead_crypt",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Undead Crypt Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 10,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:creeping_crypt",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Creeping Crypt Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 10,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "3":{
+            "take":{"type":"constant", "value": 3},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"ctov:pillager_outpost",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Pillager Outpost Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:illager_hideout",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Pillager Hideout Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:illager_manor",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Pillager Manor Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:stray_fort",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Stray Fort Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"nova_structures:witch_villa",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Witch Villa Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":14}],
+                    "xp": 20,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "4":{
+            "take":{"type":"constant", "value": 2},
+            "trades":[
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"betteroceanmonuments:better_ocean_monuments",
+                            "decoration":"monument",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Ocean Monument Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":15}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"betterjungletemples:better_jungle_temples",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Jungle Temple Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":15}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"betterdeserttemples:better_desert_temples",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Desert Temple Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":15}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"masiks_puzzle_dungeon:puzzle_dungeon",
+                            "decoration":"red_x",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Puzzle Dungeon Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":13}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                },
+                {
+                    "sells": {"item": "minecraft:map", "count":1, "functions":[{"function":"minecraft:exploration_map", "destination":"minecraft:on_woodland_explorer_maps",
+                            "decoration":"mansion",
+                            "zoom": 3},
+                            {"function":"minecraft:set_name", "name": "Mansion Map"}]},
+                    "wants": [{"item": "minecraft:emerald", "count":15}],
+                    "xp": 30,
+                    "priceMultiplier": 0.035
+                }
+            ]
+        },
+        "5":{
+            "take":{"type":"constant", "value": 1},
+            "trades":[
+                {
+                    "sells": {"item": "explorerscompass:explorerscompass", "count":1, "functions":[
+                            {"function":"minecraft:set_name", "name": "Ancient Compass"},
+                            {"function":"minecraft:set_lore", "lore":["Enchanted with ancient magic, this compass can guide you even in the other world.",
+                                        "Right-click while holding it to choose a destination."]}]},
+                    "wants": [{"item": "minecraft:emerald", "count":23}],
+                    "xp": 60,
+                    "priceMultiplier": 0.05
+                }
+            ]
+        }
+    }
+}
