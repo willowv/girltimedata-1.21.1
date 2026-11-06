@@ -105,10 +105,7 @@ neoForge {
             // "REGISTRYDUMP": For getting the contents of all registries.
             systemProperty 'forge.logging.markers', 'REGISTRIES'
 
-            // Recommended logging level for the console
-            // You can set various levels here.
-            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
-            logLevel = org.slf4j.event.Level.DEBUG
+            systemProperty 'log4j2.configurationFile', project.file('src/main/resources/log4j2-dev.xml').absolutePath
         }
     }
 
@@ -131,8 +128,7 @@ configurations {
 }
 
 dependencies {
-    implementation 'com.possible-triangle:data_trades-common:3.0.1'
-    implementation 'com.possible-triangle:data_trades-neoforge:3.0.1'
+    implementation "maven.modrinth:OClpEDe3:GqDtZulf" // VillagerConfig
     implementation "maven.modrinth:EYmZwl2a:wR7V2jPj" // More nuggets
     implementation "maven.modrinth:rlloIFEV:JrOhWsXk" // trav backpack
     implementation "maven.modrinth:sjxWxSao:UC512VgT" // shield expansion
@@ -144,6 +140,9 @@ dependencies {
     implementation "maven.modrinth:LNytGWDc:UjX6dr61" // Create
     implementation "maven.modrinth:4JVfdODB:goyDZcJC" // Cynosure
     implementation "maven.modrinth:ordsPcFz:uhJhCT7X" // Kotlin for Forge
+    implementation "maven.modrinth:XaDC71GB:cZu4cHY3" // Lithostitched
+    implementation "maven.modrinth:tpehi7ww:BYUUUeZA" // Dungeons and Taverns (for Maps)
+    implementation "maven.modrinth:fgmhI8kH:hJfyJvWt" // ChoiceTheoremOverhauledVillage - for overriding
 
     compileOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1:api"
     runtimeOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1"

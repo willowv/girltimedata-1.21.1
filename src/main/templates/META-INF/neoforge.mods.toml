@@ -72,10 +72,10 @@ Custom datapacks for the Girl Time Minecraft Modpack
     side="BOTH"
 
 [[dependencies.${mod_id}]]
-modId="data_trades"
+modId="villagerconfig"
 type="required"
-reason="This is a Datapack built on top of the Data Trades mod."
-versionRange="[2.1.1,4.0.0)"
+reason="This is a Datapack built on top of the VillagerConfig mod."
+versionRange="[4.5.4,)"
 ordering="NONE"
 side="BOTH"
 
@@ -148,5 +148,13 @@ modId="create"
 type="required"
 reason="Needed for Mason trades."
 versionRange="[0.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="lithostitched"
+type="required"
+reason="Needed for town center flatness checks"
+versionRange="[1.8.1,)"
 ordering="NONE"
 side="BOTH"
