@@ -283,7 +283,7 @@
                 "type": "minecraft:item",
                 "name": "minecraft:map",
                 "functions": [
-                  {"function":"minecraft:exploration_map", "destination":"betteroceanmonuments:better_ocean_monuments",
+                  {"function":"minecraft:exploration_map", "destination":"minecraft:on_ocean_explorer_maps",
                     "decoration":"monument",
                     "zoom": 3},
                   {"function":"minecraft:set_name", "name": "Ocean Monument Map"}
@@ -304,7 +304,7 @@
                 "type": "minecraft:item",
                 "name": "minecraft:map",
                 "functions": [
-                  {"function":"minecraft:exploration_map", "destination":"betterjungletemples:better_jungle_temples",
+                  {"function":"minecraft:exploration_map", "destination":"minecraft:on_jungle_explorer_maps",
                     "decoration":"red_x",
                     "zoom": 3},
                   {"function":"minecraft:set_name", "name": "Jungle Temple Map"}
@@ -325,7 +325,7 @@
                 "type": "minecraft:item",
                 "name": "minecraft:map",
                 "functions": [
-                  {"function":"minecraft:exploration_map", "destination":"betterdeserttemples:better_desert_temples",
+                  {"function":"minecraft:exploration_map", "destination":"minecraft:on_desert_pyramid_maps",
                     "decoration":"red_x",
                     "zoom": 3},
                   {"function":"minecraft:set_name", "name": "Desert Temple Map"}
