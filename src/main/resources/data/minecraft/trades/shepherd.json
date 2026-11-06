@@ -1,0 +1,304 @@
+{
+    "replace": true,
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 6,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:shears"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:white_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:gray_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:brown_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:black_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:light_blue_dye",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:pink_dye",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:light_blue_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:pink_wool",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "naturescompass:naturescompass",
+                                "functions":[
+                                    {
+                                        "function": "minecraft:set_name",
+                                        "mode": "replace_all",
+                                        "name": {
+                                            "text": "Moth Compass",
+                                            "target": "item_name"
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "replace_all",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "Enchanted by the Shepherds, this compass can lead you to where rosy maple moths appear at night.",
+                                                "color": "gray",
+                                                "italic": false
+                                            },
+                                            {
+                                                "text": "Right-click while holding it to choose a destination.",
+                                                "color": "yellow",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 23 }
+                                ]
+                            },
+                            "trader_experience": 0,
+                            "max_uses": 1,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:moth_fuzz",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 100,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:moth_fuzz"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

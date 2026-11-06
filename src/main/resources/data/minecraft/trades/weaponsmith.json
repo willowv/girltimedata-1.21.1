@@ -1,0 +1,526 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:coal",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 15 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:raw_iron",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_dagger"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_hammer"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 45 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.1
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_club"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_quarterstaff"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_spear"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_glaive"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 27 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.065
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_dagger",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 7 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_hammer",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 11 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_club",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_quarterstaff",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 7 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_spear",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 7 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_glaive",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 6
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_dagger",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 12 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_hammer",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_club",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 13 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_quarterstaff",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 12 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_spear",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 12 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_glaive",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 11
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_dagger",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 17 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_hammer",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 21 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_club",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_quarterstaff",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 17 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_spear",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 17 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "basicweapons:iron_glaive",
+                                "functions":[{
+                                    "function":"minecraft:enchant_with_levels",
+                                    "levels": 16
+                                }]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 19 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

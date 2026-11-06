@@ -1,0 +1,421 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "estrogen:estrogen_pill",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 2 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:ink_sac",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 6 }
+                ]
+              },
+              "trader_experience": 5,
+              "price_multiplier": 0.015
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald"
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:paper",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 24 }
+                ]
+              },
+              "trader_experience": 5,
+              "price_multiplier": 0.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 2,
+          "trades": [
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {
+                    "function":"minecraft:exploration_map",
+                    "destination":"bettermineshafts:better_mineshafts",
+                    "decoration":"red_x",
+                    "zoom": 3
+                  },
+                  { "function":"minecraft:set_name", "name": "Mineshaft Map" }
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 13 }
+                ]
+              },
+              "trader_experience": 10,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"betterdungeons:better_dungeons",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Dungeon Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 13
+                  }
+                ]
+              },
+              "trader_experience": 10,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [{"function":"minecraft:exploration_map", "destination":"nova_structures:undead_crypt",
+                  "decoration":"red_x",
+                  "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Undead Crypt Map"}]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 13
+                  }
+                ]
+              },
+              "trader_experience": 10,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [{"function":"minecraft:exploration_map", "destination":"nova_structures:creeping_crypt",
+                  "decoration":"red_x",
+                  "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Creeping Crypt Map"}]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  {
+                    "function": "minecraft:set_count",
+                    "count": 13
+                  }
+                ]
+              },
+              "trader_experience": 10,
+              "price_multiplier": 0.035
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"ctov:pillager_outpost",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Pillager Outpost Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 14 }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"nova_structures:illager_hideout",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Pillager Hideout Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 14 }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"nova_structures:illager_manor",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Pillager Manor Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 14 }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"nova_structures:stray_fort",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Stray Fort Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 14 }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"nova_structures:witch_villa",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Witch Villa Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 14 }
+                ]
+              },
+              "trader_experience": 20,
+              "price_multiplier": 0.035
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"betteroceanmonuments:better_ocean_monuments",
+                    "decoration":"monument",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Ocean Monument Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 15 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"betterjungletemples:better_jungle_temples",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Jungle Temple Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 15 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"betterdeserttemples:better_desert_temples",
+                    "decoration":"red_x",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Desert Temple Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 15 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"minecraft:on_woodland_explorer_maps",
+                    "decoration":"mansion",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Mansion Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 15 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0.035
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "explorerscompass:explorerscompass",
+                "functions": [
+                  {
+                    "function": "minecraft:set_name",
+                    "mode": "replace_all",
+                    "name": {
+                      "text": "Ancient Compass",
+                      "target": "item_name"
+                    }
+                  },
+                  {
+                    "function": "minecraft:set_lore",
+                    "mode": "replace_all",
+                    "entity": "this",
+                    "lore": [
+                      {
+                        "text": "Enchanted with ancient magic, this compass can guide you even in the other world.",
+                        "color": "gray",
+                        "italic": false
+                      },
+                      {
+                        "text": "Right-click while holding it to choose a destination.",
+                        "color": "yellow",
+                        "italic": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 23 }
+                ]
+              },
+              "price_multiplier": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

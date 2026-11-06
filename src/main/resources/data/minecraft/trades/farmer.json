@@ -1,0 +1,290 @@
+{
+    "replace": true,
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:carrot",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:potato",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 26 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "farmersdelight:onion",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 26 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "farmersdelight:tomato",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 26 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "farmersdelight:rice",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 20 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:wheat",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 20 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:melon",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "farmersdelight:cabbage",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:pumpkin",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 12 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:beetroot",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 15 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "farmersdelight:organic_compost"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 21 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:bone_meal",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 15 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.035
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:brown_mushroom",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 3 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:red_mushroom",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 3 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

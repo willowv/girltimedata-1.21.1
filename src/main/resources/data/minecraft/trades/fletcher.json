@@ -1,0 +1,353 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 5,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:stick",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "trader_experience": 1,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:flint"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:gravel"
+                            },
+                            "cost_b": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget"
+                            },
+                            "trader_experience": 1,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:bow"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:crossbow"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 27 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.075
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:spectral_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.035
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:healing" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows are extra effective against the undead, and not very effective against the living.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:harming" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows are extra effective against the living, and not very effective against the undead.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:slowness" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows slow enemies, buying you time to escape.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:weakness" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows sap the strength of their target.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 8 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:strong_healing" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows are extremely effective against the undead, and not very effective against the living.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:tipped_arrow",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 },
+                                    { "function": "minecraft:set_potion", "id": "minecraft:strong_harming" },
+                                    {
+                                        "function": "minecraft:set_lore",
+                                        "mode": "append",
+                                        "entity": "this",
+                                        "lore": [
+                                            {
+                                                "text": "These arrows are extremely effective against the living, and not very effective against the undead.",
+                                                "color": "gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 16 }
+                                ]
+                            },
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

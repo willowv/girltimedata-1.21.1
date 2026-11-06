@@ -1,0 +1,215 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:blaze_rod"
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:redstone"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 5 }
+                                ]
+                            },
+                            "trader_experience": 0,
+                            "price_multiplier": 0.015
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:blaze_powder"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 11 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:nether_wart",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 20 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:glass_bottle",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:spider_eye"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 7 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:turtle_scute"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 42 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:glowstone_dust"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:lapis_lazuli"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:ender_pearl"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 45 }
+                                ]
+                            },
+                            "price_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

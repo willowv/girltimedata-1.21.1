@@ -1,0 +1,652 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:ink_sac",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.015
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:paper",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 24 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.06
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.015
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "minecraft:unbreaking": 1
+                                        }
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:blast_protection",
+                                            "minecraft:feather_falling",
+                                            "minecraft:fire_protection",
+                                            "minecraft:projectile_protection",
+                                            "minecraft:protection",
+                                            "minecraft:respiration",
+                                            "minecraft:depth_strider",
+                                            "minecraft:aqua_affinity",
+                                            "minecraft:thorns"
+                                        ],
+                                        "levels": 6
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:fire_aspect",
+                                            "minecraft:looting",
+                                            "minecraft:bane_of_arthropods",
+                                            "minecraft:sharpness",
+                                            "minecraft:smite",
+                                            "minecraft:sweeping_edge"
+                                        ],
+                                        "levels": 6
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:efficiency",
+                                            "minecraft:fortune",
+                                            "minecraft:silk_touch"
+                                        ],
+                                        "levels": 6
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:power",
+                                            "minecraft:flame",
+                                            "minecraft:infinity",
+                                            "minecraft:multishot",
+                                            "minecraft:piercing",
+                                            "minecraft:punch",
+                                            "minecraft:quick_charge"
+                                        ],
+                                        "levels": 6
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.015
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "minecraft:unbreaking": 2
+                                        }
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:blast_protection",
+                                            "minecraft:feather_falling",
+                                            "minecraft:fire_protection",
+                                            "minecraft:projectile_protection",
+                                            "minecraft:protection",
+                                            "minecraft:respiration",
+                                            "minecraft:depth_strider",
+                                            "minecraft:aqua_affinity",
+                                            "minecraft:thorns"
+                                        ],
+                                        "levels": 14
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:fire_aspect",
+                                            "minecraft:looting",
+                                            "minecraft:bane_of_arthropods",
+                                            "minecraft:sharpness",
+                                            "minecraft:smite",
+                                            "minecraft:sweeping_edge"
+                                        ],
+                                        "levels": 14
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:efficiency",
+                                            "minecraft:fortune",
+                                            "minecraft:silk_touch"
+                                        ],
+                                        "levels": 14
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:power",
+                                            "minecraft:flame",
+                                            "minecraft:infinity",
+                                            "minecraft:multishot",
+                                            "minecraft:piercing",
+                                            "minecraft:punch",
+                                            "minecraft:quick_charge"
+                                        ],
+                                        "levels": 14
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 20,
+                            "price_multiplier": 0.035
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "minecraft:unbreaking": 3
+                                        }
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:feather_falling",
+                                            "minecraft:protection",
+                                            "minecraft:respiration",
+                                            "minecraft:depth_strider",
+                                            "minecraft:aqua_affinity",
+                                            "minecraft:thorns"
+                                        ],
+                                        "levels": 22
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:fire_aspect",
+                                            "minecraft:looting",
+                                            "minecraft:sharpness",
+                                            "minecraft:sweeping_edge"
+                                        ],
+                                        "levels": 22
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:efficiency",
+                                            "minecraft:fortune",
+                                            "minecraft:silk_touch"
+                                        ],
+                                        "levels": 22
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:power",
+                                            "minecraft:flame",
+                                            "minecraft:infinity",
+                                            "minecraft:multishot",
+                                            "minecraft:piercing",
+                                            "minecraft:punch",
+                                            "minecraft:quick_charge"
+                                        ],
+                                        "levels": 22
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 22 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:feather_falling",
+                                            "minecraft:protection",
+                                            "minecraft:respiration",
+                                            "minecraft:depth_strider",
+                                            "minecraft:aqua_affinity",
+                                            "minecraft:thorns"
+                                        ],
+                                        "levels": 30
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 30 }
+                                ]
+                            },
+                            "price_multiplier": 0.075
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:fire_aspect",
+                                            "minecraft:looting",
+                                            "minecraft:sharpness",
+                                            "minecraft:sweeping_edge"
+                                        ],
+                                        "levels": 30
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 30 }
+                                ]
+                            },
+                            "price_multiplier": 0.075
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:efficiency",
+                                            "minecraft:fortune",
+                                            "minecraft:silk_touch"
+                                        ],
+                                        "levels": 30
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 30 }
+                                ]
+                            },
+                            "price_multiplier": 0.075
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:book",
+                                "functions": [
+                                    {
+                                        "function":"minecraft:enchant_with_levels",
+                                        "options": [
+                                            "minecraft:power",
+                                            "minecraft:flame",
+                                            "minecraft:infinity",
+                                            "minecraft:multishot",
+                                            "minecraft:piercing",
+                                            "minecraft:punch",
+                                            "minecraft:quick_charge"
+                                        ],
+                                        "levels": 30
+                                    }
+                                ]
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 30 }
+                                ]
+                            },
+                            "price_multiplier": 0.075
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

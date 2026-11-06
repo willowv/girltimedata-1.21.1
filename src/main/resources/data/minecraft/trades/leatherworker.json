@@ -1,0 +1,341 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 4,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "estrogen:estrogen_pill",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 2 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:string",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 14 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 6 }
+                                ]
+                            },
+                            "trader_experience": 5,
+                            "price_multiplier": 0.015
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:saddle"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 27 }
+                                ]
+                            },
+                            "trader_experience": 10,
+                            "price_multiplier": 0.075
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 10,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:crafting_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:furnace_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:iron_tier_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 32 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 70,
+            "groups": [
+                {
+                    "num_to_select": 3,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:blast_furnace_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "cost_b": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:furnace_upgrade"
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:smoker_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 18 }
+                                ]
+                            },
+                            "cost_b": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:furnace_upgrade"
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.05
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:gold_tier_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 48 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 150,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:tanks_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 36 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.075
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:feeding_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 10 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:magnet_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 10 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades":[
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:diamond_tier_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 64 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "total_exp_required": 250,
+            "groups": [
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:pickup_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 10 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:refill_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 10 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:void_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 10 }
+                                ]
+                            },
+                            "trader_experience": 50,
+                            "price_multiplier": 0.025
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:netherite_tier_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald_block",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "price_multiplier": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
