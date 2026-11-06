@@ -1,0 +1,22 @@
+{
+  "type": "lithostitched:set_structure_spawn_condition",
+  "structures": "#minecraft:village",
+  "spawn_condition": {
+    "type": "lithostitched:grid",
+    "radius": 16,
+    "distance_between_points": 8,
+    "condition": {
+      "type": "lithostitched:not",
+      "condition": {
+        "type": "lithostitched:height_filter",
+        "range_type": "heightmap_relative",
+        "heightmap": "WORLD_SURFACE_WG",
+        "permitted_range": [
+          -2,
+          2
+        ]
+      }
+    },
+    "allowed_count": 0
+  }
+}
