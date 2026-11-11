@@ -111,17 +111,7 @@
                                 "functions": [
                                     {
                                         "function":"minecraft:enchant_with_levels",
-                                        "options": [
-                                            "minecraft:blast_protection",
-                                            "minecraft:feather_falling",
-                                            "minecraft:fire_protection",
-                                            "minecraft:projectile_protection",
-                                            "minecraft:protection",
-                                            "minecraft:respiration",
-                                            "minecraft:depth_strider",
-                                            "minecraft:aqua_affinity",
-                                            "minecraft:thorns"
-                                        ],
+                                        "options": "#c:entity_defense_enhancements",
                                         "levels": 6
                                     }
                                 ]
@@ -143,14 +133,7 @@
                                 "functions": [
                                     {
                                         "function":"minecraft:enchant_with_levels",
-                                        "options": [
-                                            "minecraft:fire_aspect",
-                                            "minecraft:looting",
-                                            "minecraft:bane_of_arthropods",
-                                            "minecraft:sharpness",
-                                            "minecraft:smite",
-                                            "minecraft:sweeping_edge"
-                                        ],
+                                        "options": "#c:weapon_damage_enhancements",
                                         "levels": 6
                                     }
                                 ]
@@ -266,17 +249,7 @@
                                 "functions": [
                                     {
                                         "function":"minecraft:enchant_with_levels",
-                                        "options": [
-                                            "minecraft:blast_protection",
-                                            "minecraft:feather_falling",
-                                            "minecraft:fire_protection",
-                                            "minecraft:projectile_protection",
-                                            "minecraft:protection",
-                                            "minecraft:respiration",
-                                            "minecraft:depth_strider",
-                                            "minecraft:aqua_affinity",
-                                            "minecraft:thorns"
-                                        ],
+                                        "options": "#c:entity_defense_enhancements",
                                         "levels": 14
                                     }
                                 ]
@@ -298,14 +271,7 @@
                                 "functions": [
                                     {
                                         "function":"minecraft:enchant_with_levels",
-                                        "options": [
-                                            "minecraft:fire_aspect",
-                                            "minecraft:looting",
-                                            "minecraft:bane_of_arthropods",
-                                            "minecraft:sharpness",
-                                            "minecraft:smite",
-                                            "minecraft:sweeping_edge"
-                                        ],
+                                        "options": "#c:weapon_damage_enhancements",
                                         "levels": 14
                                     }
                                 ]
