@@ -283,6 +283,27 @@
                 "type": "minecraft:item",
                 "name": "minecraft:map",
                 "functions": [
+                  {"function":"minecraft:exploration_map", "destination":"minecraft:on_buried_trial_chambers_maps",
+                    "decoration":"monument",
+                    "zoom": 3},
+                  {"function":"minecraft:set_name", "name": "Ocean Monument Map"}
+                ]
+              },
+              "cost_a": {
+                "type": "minecraft:item",
+                "name": "minecraft:emerald",
+                "functions": [
+                  { "function": "minecraft:set_count", "count": 15 }
+                ]
+              },
+              "trader_experience": 30,
+              "price_multiplier": 0.035
+            },
+            {
+              "result": {
+                "type": "minecraft:item",
+                "name": "minecraft:map",
+                "functions": [
                   {"function":"minecraft:exploration_map", "destination":"minecraft:on_ocean_explorer_maps",
                     "decoration":"monument",
                     "zoom": 3},
