@@ -151,7 +151,7 @@
             "total_exp_required": 150,
             "groups": [
                 {
-                    "num_to_select": 2,
+                    "num_to_select": 3,
                     "trades": [
                         {
                             "result": {
@@ -172,6 +172,21 @@
                             "result": {
                                 "type": "minecraft:item",
                                 "name": "minecraft:lapis_lazuli"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "more_nuggets:emerald_nugget",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 9 }
+                                ]
+                            },
+                            "trader_experience": 30,
+                            "price_multiplier": 0.025
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:gunpowder"
                             },
                             "cost_a": {
                                 "type": "minecraft:item",
