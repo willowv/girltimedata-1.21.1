@@ -4,7 +4,7 @@
             "total_exp_required": 0,
             "groups": [
                 {
-                    "num_to_select": 2,
+                    "num_to_select": 3,
                     "trades": [
                         {
                             "result": {
@@ -30,6 +30,20 @@
                                 "name": "minecraft:emerald",
                                 "functions": [
                                     { "function": "minecraft:set_count", "count": 4 }
+                                ]
+                            },
+                            "price_multiplier": 0.035
+                        },
+                        {
+                            "result": {
+                                "type": "minecraft:item",
+                                "name": "travelersbackpack:jukebox_upgrade"
+                            },
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "name": "minecraft:emerald",
+                                "functions": [
+                                    { "function": "minecraft:set_count", "count": 5 }
                                 ]
                             },
                             "price_multiplier": 0.035
