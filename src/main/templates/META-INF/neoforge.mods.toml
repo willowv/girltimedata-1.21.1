@@ -35,8 +35,8 @@ Custom datapacks for the Girl Time Minecraft Modpack
 '''
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
-#[[mixins]]
-#config="${mod_id}.mixins.json"
+[[mixins]]
+config="${mod_id}.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
@@ -44,10 +44,10 @@ Custom datapacks for the Girl Time Minecraft Modpack
 #file="META-INF/accesstransformer.cfg"
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.${mod_id}]] #optional
+[[dependencies."${mod_id}"]] #optional
     # the modid of the dependency
     modId="neoforge" #mandatory
-    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
+    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case-insensitive).
     # 'required' requires the mod to exist, 'optional' does not
     # 'incompatible' will prevent the game from loading when the mod exists, and 'discouraged' will show a warning
     type="required" #mandatory
@@ -63,7 +63,7 @@ Custom datapacks for the Girl Time Minecraft Modpack
     side="BOTH"
 
 # Here's another dependency
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
     modId="minecraft"
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
@@ -71,7 +71,7 @@ Custom datapacks for the Girl Time Minecraft Modpack
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="villagerconfig"
 type="required"
 reason="This is a Datapack built on top of the VillagerConfig mod."
@@ -79,7 +79,7 @@ versionRange="[4.5.4,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="more_nuggets"
 type="required"
 reason="Needed for emerald nuggets."
@@ -87,7 +87,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="travelersbackpack"
 type="required"
 reason="Needed for Leatherworker Trades."
@@ -95,7 +95,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="shieldexp"
 type="required"
 reason="Needed for Armorer Trades."
@@ -103,7 +103,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="explorerscompass"
 type="required"
 reason="Needed for Cartographer Trades."
@@ -111,7 +111,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="basicweapons"
 type="required"
 reason="Needed for Weaponsmith Trades."
@@ -119,7 +119,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="estrogen"
 type="required"
 reason="Needed for estrogen pills."
@@ -127,7 +127,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="naturescompass"
 type="required"
 reason="Needed for Shepherd trades."
@@ -135,7 +135,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="farmersdelight"
 type="required"
 reason="Needed for Farmer trades."
@@ -143,7 +143,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="create"
 type="required"
 reason="Needed for Mason trades."
@@ -151,7 +151,7 @@ versionRange="[0.0.0,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.${mod_id}]]
+[[dependencies."${mod_id}"]]
 modId="lithostitched"
 type="required"
 reason="Needed for town center flatness checks"
