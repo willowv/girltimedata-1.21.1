@@ -1,0 +1,18 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:dryland",
+    "biomesoplenty:lavender_field",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:orchard",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:scrubland",
+    "biomesoplenty:shrubland",
+    "minecraft:meadow",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:stony_peaks",
+    "minecraft:windswept_savanna"
+  ]
+}

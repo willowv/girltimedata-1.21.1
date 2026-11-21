@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:hot_springs",
+    "biomesoplenty:jacaranda_glade",
+    "biomesoplenty:jade_cliffs",
+    "biomesoplenty:lavender_field",
+    "biomesoplenty:maple_woods",
+    "biomesoplenty:orchard",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:snowblossom_grove",
+    "biomesoplenty:snowy_maple_woods",
+    "minecraft:bamboo_jungle",
+    "minecraft:cherry_grove",
+    "minecraft:flower_forest",
+    "minecraft:meadow"
+  ]
+}

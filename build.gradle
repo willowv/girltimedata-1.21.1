@@ -129,6 +129,18 @@ configurations {
 }
 
 dependencies {
+    // Dev-only (not dependencies of girltimedata): mirror the pack's Structurify setup in runs; config in run/config/structurify.json
+    localRuntime "maven.modrinth:yz7AM2zx:KDqZzIc2" // Structurify 2.0.43+mc1.21.1
+    localRuntime "maven.modrinth:1eAoo2KR:7TVdVtxF" // YetAnotherConfigLib 3.8.2+1.21.1 (required by Structurify on client)
+    // Dev-only pregeneration for worldgen tests
+    localRuntime "maven.modrinth:fALzjamp:Bq6sxES5" // Chunky 1.4.16 NeoForge (MC 1.21-1.21.1); /chunky pregeneration
+    // Dev-only: match the pack's terrain generation for worldgen tests (config copied to run/config/tectonic.json)
+    localRuntime "maven.modrinth:lWDHr9jE:n4iyW7aB" // Tectonic 3.0.28 NeoForge 21.1 (bundles ApolLib 1.1.6 via jar-in-jar)
+    // Dev-only: match the pack's biome layout (configs copied from the pack into run/config)
+    localRuntime "maven.modrinth:HXF82T3G:BtZKRp69" // Biomes O' Plenty 21.1.0.14
+    localRuntime "maven.modrinth:kkmrDlKT:6e8GCrLb" // TerraBlender 4.1.0.8 (required by BoP)
+    localRuntime "maven.modrinth:s3dmwKy5:S2TfWrZR" // GlitchCore 2.1.0.2 (required by BoP)
+
     implementation "maven.modrinth:OClpEDe3:GqDtZulf" // VillagerConfig
     implementation "maven.modrinth:EYmZwl2a:wR7V2jPj" // More nuggets
     implementation "maven.modrinth:rlloIFEV:JrOhWsXk" // trav backpack
@@ -143,7 +155,13 @@ dependencies {
     implementation "maven.modrinth:ordsPcFz:uhJhCT7X" // Kotlin for Forge
     implementation "maven.modrinth:XaDC71GB:cZu4cHY3" // Lithostitched
     implementation "maven.modrinth:tpehi7ww:BYUUUeZA" // Dungeons and Taverns (for Maps)
-    implementation "maven.modrinth:fgmhI8kH:hJfyJvWt" // ChoiceTheoremOverhauledVillage - for overriding
+
+    // Starter villages (girltime:starter_villages) - copies of Integrated Villages structures
+    implementation "maven.modrinth:o1qh5qIF:B5BcNY1z" // Integrated Villages 1.3.3+1.21.1-neoforge
+    implementation "maven.modrinth:V6fKbpBN:W2kSUAja" // Integrated API 1.9.2 (required by Integrated Villages)
+    // Integrated Villages also requires Create and Supplementaries (+ Moonlight), declared elsewhere in this block
+    implementation "maven.modrinth:qnQsVE2z:pMjjsBGF" // Quark 4.1-488 (optional for Integrated Villages; needed for Minka village)
+    implementation "maven.modrinth:MVARlG2f:9GjNW2Gf" // Zeta 1.1-40 (required by Quark)
 
     compileOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1:api"
     runtimeOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1"

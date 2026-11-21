@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#integrated_villages:has_structure/cabin_village_biomes",
+    "#integrated_villages:has_structure/clockwork_village_biomes",
+    "#integrated_villages:has_structure/kutcha_village_biomes",
+    "#integrated_villages:has_structure/marketstead_village_biomes",
+    "#integrated_villages:has_structure/mediterranean_village_biomes",
+    "#integrated_villages:has_structure/minka_village_biomes",
+    "#integrated_villages:has_structure/mossy_mounds_biomes",
+    "#integrated_villages:has_structure/oasis_village_biomes",
+    "#integrated_villages:has_structure/swamp_village_biomes",
+    "#integrated_villages:has_structure/tavern_village_biomes"
+  ]
+}

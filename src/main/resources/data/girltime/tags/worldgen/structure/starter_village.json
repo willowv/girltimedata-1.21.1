@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "girltime:starter/tavern_village",
+    "girltime:starter/mediterranean_village",
+    "girltime:starter/kutcha_village",
+    "girltime:starter/oasis_village",
+    "girltime:starter/mossy_mounds",
+    "girltime:starter/cabin_village",
+    "girltime:starter/minka_village",
+    "girltime:starter/marketstead_village",
+    "girltime:starter/clockwork_village",
+    "girltime:starter/sunken_village",
+    "girltime:starter/airship_village"
+  ]
+}

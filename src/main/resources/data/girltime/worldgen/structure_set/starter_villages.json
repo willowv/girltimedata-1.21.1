@@ -1,0 +1,56 @@
+{
+  "structures": [
+    {
+      "structure": "girltime:starter/tavern_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/mediterranean_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/kutcha_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/oasis_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/mossy_mounds",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/cabin_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/minka_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/marketstead_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/clockwork_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/sunken_village",
+      "weight": 10000
+    },
+    {
+      "structure": "girltime:starter/airship_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "salt": 1194328021,
+    "distance": 16,
+    "spread": 6,
+    "count": 6,
+    "preferred_biomes": "#girltime:starter_village_biomes"
+  }
+}

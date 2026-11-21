@@ -1,0 +1,30 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:aspen_glade",
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:dead_forest",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:jade_cliffs",
+    "biomesoplenty:maple_woods",
+    "biomesoplenty:old_growth_dead_forest",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:orchard",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:snowy_coniferous_forest",
+    "biomesoplenty:snowy_fir_clearing",
+    "biomesoplenty:snowy_maple_woods",
+    "biomesoplenty:woodland",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:forest",
+    "minecraft:grove",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:taiga",
+    "minecraft:windswept_forest"
+  ]
+}

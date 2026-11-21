@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:crag",
+    "biomesoplenty:field",
+    "biomesoplenty:forested_field",
+    "biomesoplenty:grassland",
+    "biomesoplenty:highland",
+    "biomesoplenty:moor",
+    "biomesoplenty:old_growth_woodland",
+    "biomesoplenty:orchard",
+    "biomesoplenty:pasture",
+    "biomesoplenty:prairie",
+    "biomesoplenty:rocky_shrubland",
+    "biomesoplenty:shrubland",
+    "biomesoplenty:woodland",
+    "minecraft:birch_forest",
+    "minecraft:flower_forest",
+    "minecraft:forest",
+    "minecraft:meadow",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills"
+  ]
+}

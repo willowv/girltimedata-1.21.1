@@ -1,0 +1,51 @@
+{
+  "name": "girltime:starter/airship_large",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_cleric",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_library",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_mason",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_cartographer",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_cargo",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

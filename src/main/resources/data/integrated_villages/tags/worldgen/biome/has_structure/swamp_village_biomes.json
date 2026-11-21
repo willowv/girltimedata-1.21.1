@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:bayou",
+    "biomesoplenty:bog",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:marsh",
+    "biomesoplenty:muskeg",
+    "biomesoplenty:wetland",
+    "minecraft:mangrove_swamp",
+    "minecraft:swamp"
+  ]
+}

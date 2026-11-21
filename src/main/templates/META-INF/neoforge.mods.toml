@@ -152,9 +152,25 @@ ordering="NONE"
 side="BOTH"
 
 [[dependencies."${mod_id}"]]
-modId="lithostitched"
+modId="integrated_villages"
 type="required"
-reason="Needed for town center flatness checks"
-versionRange="[1.8.1,)"
+reason="Starter village structures reuse Integrated Villages template pools and biome tags; overrides must load after it."
+versionRange="[1.3.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="integrated_api"
+type="required"
+reason="Starter village structures use Integrated API structure types."
+versionRange="[1.9.2,)"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies."${mod_id}"]]
+modId="mr_village_maponstart"
+type="optional"
+reason="Overrides the Village Map on Start loot table to point at starter villages; must load after it."
+versionRange="[0,)"
+ordering="AFTER"
 side="BOTH"

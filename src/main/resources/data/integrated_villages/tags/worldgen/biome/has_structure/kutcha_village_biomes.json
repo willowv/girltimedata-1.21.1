@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:dryland",
+    "biomesoplenty:dune_beach",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:mediterranean_forest",
+    "biomesoplenty:scrubland",
+    "biomesoplenty:wasteland_steppe",
+    "minecraft:desert",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna"
+  ]
+}
