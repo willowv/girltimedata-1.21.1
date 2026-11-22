@@ -1,0 +1,118 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:purple_stained_glass_pane"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "integrated_api:tick_blocks_processor",
+      "blocks_to_tick": [
+        "minecraft:dispenser"
+      ]
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block": "minecraft:red_terracotta",
+      "required_mod": "quark",
+      "output_block": "quark:bonded_leather",
+      "probability": 0.4
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block": "supplementaries:feather_block",
+      "required_mod": "cloudstorage",
+      "output_block": "cloudstorage:cloud",
+      "probability": 1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block": "supplementaries:feather_block",
+      "required_mod": "twilightforest",
+      "output_block": "twilightforest:wispy_cloud",
+      "probability": 1
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block": "minecraft:purple_stained_glass_pane",
+      "required_mod": "bountiful",
+      "output_block": "bountiful:bountyboard",
+      "probability": 1,
+      "otherwise_block": "minecraft:air"
+    },
+    {
+      "processor_type": "integrated_api:integrated_block_replace_processor",
+      "input_block": "minecraft:magenta_stained_glass_pane",
+      "required_mod": "paraglider",
+      "output_block": "paraglider:goron_goddess_statue",
+      "probability": 1,
+      "otherwise_block": "minecraft:air"
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:magenta_glazed_terracotta",
+      "workstation_type": "generic",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:light_blue_glazed_terracotta",
+      "workstation_type": "librarian",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:purple_glazed_terracotta",
+      "workstation_type": "cleric",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:gray_glazed_terracotta",
+      "workstation_type": "mason",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:black_glazed_terracotta",
+      "workstation_type": "blacksmith",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:brown_glazed_terracotta",
+      "workstation_type": "cartographer",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:pink_glazed_terracotta",
+      "workstation_type": "butcher",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:white_glazed_terracotta",
+      "workstation_type": "fletcher",
+      "enable_integration": true
+    },
+    {
+      "processor_type": "integrated_api:workstation_processor",
+      "input_block": "minecraft:red_glazed_terracotta",
+      "workstation_type": "leatherworker",
+      "enable_integration": true
+    }
+  ]
+}

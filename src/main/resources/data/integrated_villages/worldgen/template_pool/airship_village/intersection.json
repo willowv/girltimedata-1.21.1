@@ -1,0 +1,24 @@
+{
+  "name": "integrated_villages:airship_village/intersection",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1000,
+      "element": {
+        "location": "integrated_villages:airship_village/intersection/airship_village_intersection1",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/intersection/airship_village_intersection2",
+        "processors": "integrated_villages:airship_village_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

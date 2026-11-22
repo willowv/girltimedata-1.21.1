@@ -4,7 +4,7 @@
   "size": 17,
   "terrain_height_radius_check": 2,
   "allowed_terrain_height_range": 20,
-  "max_distance_from_center": 40,
+  "max_distance_from_center": 250,
   "cannot_spawn_in_liquid": true,
   "biomes": "#integrated_villages:has_structure/oasis_village_biomes",
   "step": "surface_structures",

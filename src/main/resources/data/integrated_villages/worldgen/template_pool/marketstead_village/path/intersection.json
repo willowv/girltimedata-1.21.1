@@ -1,0 +1,54 @@
+{
+  "name": "integrated_villages:marketstead_village/marketstead_village_intersection",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1000,
+      "element": {
+        "location": "integrated_villages:marketstead_village/path/marketstead_village_intersection1",
+        "processors": "integrated_villages:marketstead_village_processor",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 16,
+          "kernel_distance": 15
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:marketstead_village/path/marketstead_village_intersection2",
+        "processors": "integrated_villages:marketstead_village_processor",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 16,
+          "kernel_distance": 15
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:marketstead_village/path/marketstead_village_intersection3",
+        "processors": "integrated_villages:marketstead_village_processor",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 16,
+          "kernel_distance": 15
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

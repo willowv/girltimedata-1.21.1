@@ -1,0 +1,86 @@
+{
+  "name": "integrated_villages:oasis_village/tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:oasis_village/house/oasis_village_tower_small",
+        "processors": "integrated_villages:oasis_village_processor",
+        "projection": "rigid",
+        "modifiers": [
+          {
+            "condition": {
+              "type": "integrated_api:piece_in_range",
+              "pieces": [
+                "integrated_villages:oasis_village/house/oasis_village_tower_small"
+              ],
+              "above_range": 5,
+              "horizontal_range": 60,
+              "below_range": 5
+            },
+            "target_selector": {
+              "type": "integrated_api:self"
+            },
+            "actions": [
+              {
+                "type": "integrated_api:transform",
+                "output": [
+                  "integrated_villages:oasis_village/house/oasis_village_basichouse2"
+                ]
+              }
+            ]
+          }
+        ],
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 15,
+          "kernel_distance": 15
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1000,
+      "element": {
+        "location": "integrated_villages:oasis_village/house/oasis_village_tower",
+        "processors": "integrated_villages:oasis_village_processor",
+        "projection": "rigid",
+        "modifiers": [
+          {
+            "condition": {
+              "type": "integrated_api:piece_in_range",
+              "pieces": [
+                "integrated_villages:oasis_village/house/oasis_village_tower"
+              ],
+              "above_range": 5,
+              "horizontal_range": 60,
+              "below_range": 5
+            },
+            "target_selector": {
+              "type": "integrated_api:self"
+            },
+            "actions": [
+              {
+                "type": "integrated_api:transform",
+                "output": [
+                  "integrated_villages:oasis_village/house/oasis_village_tower_small"
+                ]
+              }
+            ]
+          }
+        ],
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 15,
+          "kernel_distance": 15
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

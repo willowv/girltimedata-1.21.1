@@ -1,0 +1,15 @@
+{
+  "name": "integrated_villages:airship_village/cargo",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:airship_village/ship/airship_village_cargo",
+        "processors": "girltime:strip/airship_village_no_board",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

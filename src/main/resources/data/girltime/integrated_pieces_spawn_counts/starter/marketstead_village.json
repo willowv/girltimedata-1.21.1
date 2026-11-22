@@ -1,0 +1,10 @@
+{
+  "target_structure": "girltime:starter/marketstead_village",
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "integrated_villages:marketstead_village/path/marketstead_village_intersection1",
+      "always_spawn_this_many": 1,
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}

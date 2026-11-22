@@ -1,0 +1,72 @@
+{
+  "name": "integrated_villages:tavern_village/well",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:tavern_village/well/tavern_village_well1",
+        "processors": "integrated_villages:tavern_village_processor",
+        "projection": "rigid",
+        "condition": {
+          "type": "integrated_api:all_of",
+          "conditions": [
+            {
+              "type": "integrated_api:depth",
+              "max_possible_depth": 15
+            }
+          ]
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 20,
+          "kernel_distance": 20
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:tavern_village/well/tavern_village_well2",
+        "processors": "integrated_villages:tavern_village_processor",
+        "projection": "rigid",
+        "condition": {
+          "type": "integrated_api:all_of",
+          "conditions": [
+            {
+              "type": "integrated_api:depth",
+              "max_possible_depth": 15
+            }
+          ]
+        },
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 20,
+          "kernel_distance": 20
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    },
+    {
+      "weight": 1000,
+      "element": {
+        "location": "integrated_villages:tavern_village/well/tavern_village_waystone",
+        "processors": "integrated_villages:tavern_village_processor",
+        "projection": "rigid",
+        "enhanced_terrain_adaptation": {
+          "type": "integrated_api:custom",
+          "carves": true,
+          "beards": true,
+          "kernel_size": 20,
+          "kernel_distance": 20
+        },
+        "element_type": "integrated_api:integrated_api_single_pool_element"
+      }
+    }
+  ]
+}

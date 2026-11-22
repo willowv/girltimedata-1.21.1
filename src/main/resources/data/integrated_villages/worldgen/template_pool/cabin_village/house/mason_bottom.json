@@ -1,0 +1,15 @@
+{
+  "name": "integrated_villages:cabin_village/mason_bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "integrated_villages:cabin_village/house/cabin_village_mason_bottom",
+        "processors": "girltime:strip/cabin_village_no_waystone",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

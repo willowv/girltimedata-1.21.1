@@ -2,43 +2,47 @@
   "structures": [
     {
       "structure": "girltime:starter/tavern_village",
-      "weight": 10000
+      "weight": 2000
     },
     {
       "structure": "girltime:starter/mediterranean_village",
-      "weight": 10000
+      "weight": 7000
     },
     {
       "structure": "girltime:starter/kutcha_village",
-      "weight": 10000
+      "weight": 5000
     },
     {
       "structure": "girltime:starter/oasis_village",
-      "weight": 10000
+      "weight": 7000
     },
     {
       "structure": "girltime:starter/mossy_mounds",
-      "weight": 10000
+      "weight": 3000
     },
     {
       "structure": "girltime:starter/cabin_village",
-      "weight": 10000
+      "weight": 3000
     },
     {
       "structure": "girltime:starter/minka_village",
-      "weight": 10000
+      "weight": 7000
     },
     {
       "structure": "girltime:starter/marketstead_village",
-      "weight": 10000
+      "weight": 3000
     },
     {
       "structure": "girltime:starter/clockwork_village",
-      "weight": 10000
+      "weight": 7000
     },
     {
       "structure": "girltime:starter/sunken_village",
-      "weight": 10000
+      "weight": 11000
+    },
+    {
+      "structure": "girltime:starter/pirate_village",
+      "weight": 8000
     },
     {
       "structure": "girltime:starter/airship_village",

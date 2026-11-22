@@ -3,7 +3,7 @@
   "start_pool": "girltime:starter/airship_large",
   "rotation_fixed": true,
   "size": 30,
-  "max_distance_from_center": 256,
+  "max_distance_from_center": 125,
   "biomes": "#integrated_villages:has_structure/airship_village_biomes",
   "step": "surface_structures",
   "terrain_adaptation": "none",

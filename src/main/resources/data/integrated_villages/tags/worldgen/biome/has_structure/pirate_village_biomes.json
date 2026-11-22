@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:beach",
+    "minecraft:desert",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:dune_beach",
+    "biomesoplenty:gravel_beach",
+    "biomesoplenty:tropics",
+    "biomesoplenty:volcanic_plains"
+  ]
+}

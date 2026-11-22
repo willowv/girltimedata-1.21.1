@@ -5,7 +5,7 @@
   "terrain_height_radius_check": 3,
   "allowed_terrain_height_range": 20,
   "allowed_y_range_from_start": 90,
-  "max_distance_from_center": 40,
+  "max_distance_from_center": 200,
   "cannot_spawn_in_liquid": true,
   "biomes": "#integrated_villages:has_structure/mediterranean_village_biomes",
   "step": "surface_structures",

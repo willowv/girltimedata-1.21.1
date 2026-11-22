@@ -1,0 +1,10 @@
+{
+  "target_structure": "integrated_villages:cabin_village",
+  "pieces_spawn_counts": [
+    {
+      "nbt_piece_name": "integrated_villages:cabin_village/house/cabin_village_cleric",
+      "always_spawn_this_many": 1,
+      "never_spawn_more_than_this_many": 1
+    }
+  ]
+}
