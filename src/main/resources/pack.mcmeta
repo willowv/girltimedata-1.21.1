@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "description": "Girl Time data",
+    "pack_format": 48
+  },
+  "filter": {
+    "block": [
+      {
+        "path": "^advancement/recipes?/.*"
+      },
+      {
+        "path": "^advancement/(repair_)?(explorers|natures)_compass(_[a-z_]+)?\\.json$"
+      }
+    ]
+  }
+}
